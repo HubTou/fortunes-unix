@@ -12,7 +12,7 @@ If you find other good ones, feel free to submit them in the repository's [discu
 Filename|Sources
 ---|---
 unix-philosophy|Mainly Wikipedia's [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy), plus from some books
-unix-quotes|Mainly extracted from fortune own [fortunes](https://github.com/HubTou/fortunes-freebsd-classic/blob/main/data/fortunes) database
+unix-quotes|Mainly extracted from fortune own [fortunes](https://github.com/HubTou/fortunes-freebsd-classic/blob/main/data/fortunes) database<br>And also from Brian Kernighan's "UNIX: A History and a Memoir"
 
 ## SEE ALSO
 [fortune(6)](https://www.freebsd.org/cgi/man.cgi?query=fortune&manpath=FreeBSD+14.0-current),

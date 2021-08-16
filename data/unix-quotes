@@ -491,3 +491,154 @@ Wombat's Laws of Computer Selection:
 	(5) Any computer with a mouse is worthless.
 		-- Rich Kulawiec
 %
+%% Quotes from Brian Kernighan's "Unix, a history and a memoir":
+%
+At some point I realised that I was three weeks from an operating system
+		-- Ken Thompson, Vintage Computer Festival East, May 4, 2019
+%
+Unix was a file system implementation to test thruput and the like.
+Once implemented, it was hard to get data to it to load it up.
+I could put read/write calls in loops, but anything more sophisticated
+was near impossible. That was the state when Bonnie went to visit my
+parents in San Diego.
+I decided that it was close to a time sharing system, just lacking an
+exec call, a shell, an editor, and an assembler. (no compilers)
+The exec call was trivial and the other 3 were done in 1-week each -
+exactly Bonnie's stay.
+		-- Ken Thompson, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+[UNICS was] a somewhat treacherous pun on Multics 
+		-- Dennis Ritchie, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+UNICS = UNiplexed Information and Computing Service
+		-- a name proposal by Peter Neumann
+%
+The astronomical theme in the Unix crew began with Joe Ossanna's
+"azel", which had controlled the Telstar ground station, and we used to
+tell us where to find artificial satellites. Next came Bob Morris's
+"sky" program, then Ken's celestial event predictor, Lee McMahon's star
+maps made with my "map" program, and finally Rob's "scat" star catalog
+		-- Doug McIlroy, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+I remember vividly that Ken came in one morning for lunch and said that
+overnight he had written a thousand-line one-user OS kernel for the
+PDP-7 that Max Matthews had lent him.
+I suggested that he should make it a multi-user system, and sure enough
+the next day he came in for lunch having written another thousand lines
+with a multi-user kernel.
+It was the one-user kernel that prompted the 'castrated Multics'
+concept of UNICS
+		-- Peter Neumann, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+The number of Unix installations has grown to 10, with more expected
+		-- "The Unix Programmer's Manual", 2nd edition, June 1972
+%
+The number of Unix installations is now above 50, and many more are
+expected
+		-- "The Unix Programmer's Manual", 5th edition, June 1974
+%
+Rob Pike: "What would you change if you were to do Unix over again?"
+Ken Thompson: "I'd spell creat() with an e"
+		-- cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+Summary--What's most important
+To put my strongest concerns in a nutshell:
+1. We should have some ways of coupling programs like
+garden hose--screw in another segment when it becomes
+necessary to massage data in another way.
+		-- Doug McIlroy's pipe idea, 1964
+%
+The genius of the Unix pipeline is precisely that it is constructed
+from the very same commands used constantly in simplex fashion. The
+mental leap needed to see this possibility and to invent the notation
+is large indeed
+		-- Dennis Ritchie, "The Evolution of the Unix Time-sharing
+		   System", 1984
+%
+[About grep]
+I had it written but I didn't put it in the central repository of
+programs because I didn't want people to think that I dictated what was
+there.
+Doug McIlroy said "Wouldn't it be great if we could look for things in
+files?". I said "Let me think about it overnight" and the next morning
+I showed him the program that I had written earlier. He said "That's
+exactly what I wanted".
+Since then grep has become a noun and a verb; it's even in the OED
+[Oxford English Dictionary]. The hardest part was naming it; it was
+originally 's', for search
+		-- Ken Thompson, 2019, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+It was really with v7 that the system fledged and left the research
+nest. V7 was the first portable edition, the last common ancestor of a 
+radiative explosion to countless varieties of hardware. Thus the
+history of v7 is part of the common heritage of all Unix systems
+		- Doug McIlroy, "A research Unix Reader", 1986
+%
+Lex was rewritten almost immediately by Eric Schmidt as a summer
+student. I had written it with a non-deterministic analyzer that
+couldn't handle rules with more than 16 states. Al Aho was frustrated
+and got me a summer student to fix it. He just happened to be unusual
+		-- Michael Lesk, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+I wrote Make over the weekend, and then rewrote it the next weekend
+with macros (the list of built-in code was getting too long). I didn't
+fix the tab-in-column-1 because I quickly had a devoted user base of
+more than a dozen people and didn't want to upset them
+		-- Stu Feldman, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+You can't trust code that you did not totally create yourself.
+(Especially code from companies that employ people like me).
+No amount of source-level verification or scrutiny will protect you
+from using untrusted code.
+		-- Ken Thompson, "Reflections on Trusting Trust", 1983
+%
+The Unix operating system presently is used at 1400 universities and
+colleges around the world. It is the basis for 70 computer lines
+covering the microcomputer to supercomputer spectrum: there are on the
+order of 100,000 Unix systems now in operation, and approximately 100
+companies are developing applications based on it
+		-- R. L. Martin, "Unix System Readings and Applications",
+		   Vol. 2, 1984
+%
+/* You are not expected to understand this. */
+		-- A comment at line 2238 of Unix 6th edition source code
+%
+/* You are not expected to understand this. */
+		-- A comment at line 2238 of Unix 6th edition source code
+It's often quoted as a slur on the quantity or quality of the
+comments in the Bell Labs research releases of Unix. Not an unfair
+observation in general, I fear, but in this case unjustified
+		-- Dennis Ritchie, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+Dennis hooked me into the portability effort with one sentence:
+"I think that it would be easier to move Unix to another piece of
+hardware than to rewrite an application ro tun under a different
+operating system". I was all in from that point on
+		-- Steve Johnson, cited in "Unix, a history and a memoir"
+		   by Brian Kernighan
+%
+As Unix spread throughout the academic world, businesses eventually
+became aware of Unix from their newly hired programmers who had used
+it in college
+		-- Lucent Web site, 2002
+%
+Unix and C are the ultimate computer viruses
+		-- Richard Gabriel, "Worse is better", 1991
+%
+UNIX is a footnote of Bell Laboratories
+		-- Easter egg put into Troff macro package ms by Mike Lesk
+%
+Unix was not only an improvement on its predecessors but also on most
+of its successors
+		-- Doug McIlroy, "Remarks for Japan Prize award ceremony for
+		   Dennis Ritchie", May 2011
+%
